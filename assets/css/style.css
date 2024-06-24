@@ -90,6 +90,11 @@ html,body{
     height: 100%;
 	position: relative;
 }
+
+html {
+    scroll-padding-top: 80px;
+}
+
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
   -moz-transition: opacity 0.3s 0.3s ease; 
@@ -757,7 +762,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 /*--contct button--*/
 
-/* contact-adress */
+/* contact-address */
 .contact-add-head h3 {
     font-size:  24px;
     color:  #3c4258;
@@ -769,7 +774,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight:  300;
     margin-top:  6px;
 }
-/* contact-adress */
+/* contact-address */
 
 /*.contact-add-info */
 .contact-add-info { margin: 42px 0 52px;}
@@ -778,7 +783,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight:  500;
 }
 .single-contact-add-info p {
-    color:  #646D87;
+    color:  #a7acba;
     font-size:  16px;
     margin-top:  18px;
 }
@@ -811,52 +816,4 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 38px 0;
 }
 .hm-footer-copyright p a {color: #888ea5;}
-/*===============================
-    Scroll Top
-===============================*/
-#scroll-Top  .return-to-top {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    display: none;
-    width: 40px;
-    line-height: 40px;
-    height: 40px;
-    text-align: center;
-    font-size: 20px;
-    cursor: pointer;
-    color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
-	border-radius:50%;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
-	-o-transition:.5s;
-    transition: .5s;
-	z-index: 2;
-}
-#scroll-Top  .return-to-top:hover {
-    background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
-}
 
-#scroll-Top  .return-to-top i{
-    position:relative;
-    bottom:0;
-
-}
-
-#scroll-Top  .return-to-top i{
-    position: relative;
-    animation-name: example;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-duration:1s;
-}
-@keyframes example {
-    0%   {bottom:0px;}
-    100%  {bottom:7px;}
-}
-/*========================Thank you=================
