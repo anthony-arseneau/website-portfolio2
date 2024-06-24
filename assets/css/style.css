@@ -724,7 +724,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 /*--contct button--*/
-.contact-form .single-contact-btn a{
+.contact-form .single-contact-btn input{
     color: #fff;
     display:flex;
     align-items:center;
@@ -734,6 +734,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #2E9CCA;
     border: 2px solid #2E9CCA;
     cursor:pointer;
+    width: 100%;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
     -moz-transition:.5s; 
@@ -753,7 +754,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: .5s;
     
 }
-.single-contact-btn a:hover{
+.single-contact-btn input:hover{
     color: #2E9CCA;
     background: transparent;
     border: 2px solid #2E9CCA;
