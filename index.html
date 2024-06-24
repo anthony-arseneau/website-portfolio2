@@ -578,23 +578,27 @@
 						<div class="col-md-offset-1 col-md-5 col-sm-6">
 							<div class="single-contact-box">
 								<div class="contact-form">
-									<form>
+									<form name="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+										<!-- ACCESS KEY -->
+										<input type="hidden" name="access_key" value="28bc8df2-713e-450e-98c1-279e1302c2fa">
+										
 										<div class="row">
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+												  <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+													<input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
@@ -608,7 +612,11 @@
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="single-contact-btn">
-													<a class="contact-btn" href="#" role="button">Submit</a>
+													<input type="hidden" name="redirect" value="https://anthonyarseneau.ca/contact-thank-you.html">
+
+													<input type="hidden" name="from_name" value="Contact Submission">
+
+													<input class="contact-btn" type="submit" value="Submit">
 												</div><!--/.single-single-contact-btn-->
 											</div><!--/.col-->
 										</div><!--/.row-->
