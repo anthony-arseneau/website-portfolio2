@@ -31,10 +31,18 @@ $(document).ready(function(){
 				scrollTop: $(anchor.attr('href')).offset().top - 80
 			}, 1200,'easeInOutExpo');
 		});
+
+		$('divsmooth-menu a').bind("click", function(event) {
+			event.preventDefault();
+			var anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $(anchor.attr('href')).offset().top - 80
+			}, 1200,'easeInOutExpo');
+		});
 		
 		$('body').scrollspy({
 			target:'.navbar-collapse',
-			offset:0
+			offset:500
 		});
 
 	// 3. Progress-bar

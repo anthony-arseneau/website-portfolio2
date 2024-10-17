@@ -1,5 +1,4 @@
-@media screen and (max-width:1680px){
-
+@media screen and (min-width:1920px){
 }/*max-width:1680px*/
 @media screen and (max-width:1440px){
 	.single-about-img img {max-width:100%;}
@@ -12,10 +11,36 @@
 	.welcome-hero {height: 768px;}
 
 	.timeline-content span>i, .experience-time span>i {left: -15.5%;}
+	.academic_logo {
+		height: 55px;
+	}
 }/*max-width:1199px*/
 
-@media screen and (max-width:1024px){
+@media (min-width: 1200px) {
+	.container {
+	  max-width: 1170px;
+	}
+  }
 
+@media (min-width: 1120px) {
+	.container .wrapper {
+	  display: flex;
+	}
+  
+	.container .wrapper .left {
+	  width: 50%;
+	}
+  
+	.container .wrapper .right {
+	  width: 50%;
+	}
+  
+  }
+
+@media screen and (max-width:1024px){
+	.academic_logo {
+		height: 45px;
+	}
 
 }/*max-width:1024px*/
 
