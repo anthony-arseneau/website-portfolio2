@@ -208,7 +208,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #244855;}
     background:url(../media/images/landing_background.jpeg)no-repeat;
     background-size:cover;
     background-position: center;
-    height:890px;
+    height:85vh;
+    min-height: 700px;
+    max-height: 890px;
 }
 .welcome-hero:before{
     position:absolute;
