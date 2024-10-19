@@ -1,34 +1,29 @@
------------------------
-# README
------------------------
-This webpage is for my software development portfolio.
+# Personal Website Hosting and Server Configuration
 
+## Overview
+This project aimed to enhance my skills in server management and web development, ultimately providing a platform for my work and projects.
 
-Template Info:
------------------------
-Name: 		Browny - Free Bootstrap One Page Portfolio Resume Tempalte
-Version: 	1.0
-Author: 	ThemeSINE
-Website: 	https://www.themesine.com/
+![alt text](https://github.com/anthony-arseneau/website-portfolio/blob/main/assets/media/projects/website_hosting.png?raw=true)
 
+## How to Use
 
-Changelog:
------------------------
-Version 1.0 14-05-2018
-- initial release 
+You can see the website [here](https://anthonyarseneau.ca/index.html).
 
+## Features
+- **Custom Server Setup**: Designed and configured a server infrastructure tailored to hosting a dynamic website.
+- **Front-End Development**: Utilized HTML, CSS, and JavaScript for building a responsive and visually appealing user interface.
+- **Cross-Browser Compatibility**: Ensured consistent functionality and visual integrity across various browsers and devices, requiring meticulous attention to detail.
+- **Automation**: Implemented automation features using crontab for efficient server management.
 
-Credits:
------------------------
-- Twitter Bootstrap http://getbootstrap.com
-- jQuery http://jquery.org
-- Modernizr https://modernizr.com/
-- Sticky.js http://stickyjs.com/
-- JQuery easing https://github.com/gdsmith/jquery.easing
-- Bootsnav http://bootsnav.danurstrap.com/
-- Pexels https://www.pexels.com/
-- Unsplash https://unsplash.com/
+## Technical Stack
+- **Server Management**: Personal server configured for optimal performance.
+- **Web Development**: Front-end technologies: HTML, CSS, JavaScript.
+- **Automation Tools**: Crontab for scheduled tasks (e.g., IP updates, website refreshes).
+- **Thermal Management**: Integrated cooling system to ensure stable operation under load.
 
-License:
------------------------
-This template is under Free License - https://www.themesine.com/license/
+## Project Duration
+The learning curve for setting up and managing the server infrastructure was steep, but the experience gained was ultimately rewarding. Front-end development proved to be time-consuming due to the need for extensive testing and refinement.
+
+## Improvements
+- **Streamlined Workflow**: Through multiple iterations and problem-solving, my workflow has been significantly optimized. Future website creation will now take a fraction of the time compared to the initial effort.
+- **Enhanced System Efficiency**: Automation features and proper cooling systems were implemented to improve performance and stability.
