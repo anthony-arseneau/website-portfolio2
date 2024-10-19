@@ -3,7 +3,7 @@
 ## Overview
 This project aimed to enhance my skills in server management and web development, ultimately providing a platform for my work and projects.
 
-![alt text](https://github.com/anthony-arseneau/website-portfolio2/blob/main/assets/media/images/projects/website_hosting.png?raw=true)
+![alt text](https://github.com/anthony-arseneau/website-portfolio2/blob/main/assets/media/images/projects/website/web_hosting.png)
 
 ## How to Use
 
