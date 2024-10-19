@@ -10,7 +10,7 @@
 	
 	.welcome-hero {height: 768px;}
 
-	.timeline-content span>i, .experience-time span>i {left: -15.5%;}
+	.timeline-content span>i, .experience-time span>i {left: -15.1%;}
 	.academic_logo {
 		height: 55px;
 	}
@@ -61,7 +61,7 @@
 	.experience-time-responsive{display: block;}
 	.experience-time-main{display: none;}
 	.experience-time,.timeline-content{text-align: left;margin-bottom: 20px;margin-left: 40px;}
-	.timeline-content span>i{left: 0%;top: -54%;}
+	.timeline-content span>i{left: -0.2%;top: -68px;}
 	.experience-time span>i {left: -6%;top: 6%;}
 	.main-timeline:before {left:0.4%;}
 
@@ -83,6 +83,10 @@
 	.profile-border{border: 0;}
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
+
+	.main-timeline {
+		padding: 0 8px;
+	}
 
 }/*max-width:767px*/
 
