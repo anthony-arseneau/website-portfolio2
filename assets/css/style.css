@@ -268,7 +268,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #244855;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
-    margin: 2px auto 0px;
+    margin: 0px auto 0px;
     font-size:24px;
     color: #3c4258;
     text-transform: initial;
@@ -277,12 +277,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #244855;}
 .single-about-txt p {
     font-size: 16px;
     color: #646D87;
-    padding: 15px 0 43px;
+    padding: 15px 0 28px;
     border-bottom: 1px solid #646D87;
     text-align: left;
 }
 .single-about-add-info {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .single-about-add-info h3 {
     color: #636a82;
