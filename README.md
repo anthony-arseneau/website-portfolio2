@@ -5,7 +5,7 @@ This project aimed to enhance my skills in server management and web development
 
 ## How to Use
 
-You can see the website [here](https://anthonyarseneau.ca/index.html).
+You can visit the website [here](https://anthonyarseneau.ca/index.html).
 
 ## Features
 - **Custom Server Setup**: Designed and configured a server infrastructure tailored to hosting a dynamic website.
