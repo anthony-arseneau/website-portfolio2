@@ -268,7 +268,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #244855;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
-    margin: 10px auto 0px;
+    margin: 2px auto 0px;
     font-size:24px;
     color: #3c4258;
     text-transform: initial;
@@ -282,7 +282,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #244855;}
     text-align: left;
 }
 .single-about-add-info {
-    margin: 35px 0;
+    margin: 20px 0;
 }
 .single-about-add-info h3 {
     color: #636a82;
