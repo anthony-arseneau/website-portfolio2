@@ -680,8 +680,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
             justify-content: space-between;
   }
   
@@ -1081,7 +1081,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .container .wrapper {
     padding: 20px 20px 0px 20px;
     display: contents;
-    text-align: justify;
+    text-align: left;
 }
   
 .container .wrapper .left {
