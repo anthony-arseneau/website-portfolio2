@@ -408,6 +408,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 20px;
 }
 
+.skill-content .container p {
+    margin-top: 10px;
+    text-align: center;
+}
+
 .skill-content{padding: 50px 0 0px;}
 .single-skill-content{padding-top: 30px;}
 .section-heading h2 {
